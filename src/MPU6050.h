@@ -561,8 +561,8 @@ namespace MPU6050_IMU{
   };
 
   /*WHO_AM_I definitions*/
-  constexpr uint8_t  MPU6050_WHO_AM_I_BIT  =  7;
-  constexpr uint8_t  MPU6050_WHO_AM_I_LENGTH  =  8;
+  constexpr uint8_t  MPU6050_WHO_AM_I_BIT  =  6;
+  constexpr uint8_t  MPU6050_WHO_AM_I_LENGTH  =  6;
 
   /*memory block definitions*/
   constexpr uint8_t MPU6050_DMP_MEMORY_BANKS  =  8;
